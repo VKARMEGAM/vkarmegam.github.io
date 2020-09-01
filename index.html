@@ -126,9 +126,6 @@ function scrolltop()
   </div>
 </nav>
     </div>
-
-
-
 <script>
 function clicked() {
     var xhr = new XMLHttpRequest();
@@ -233,7 +230,9 @@ function updateVisitCount() {
         if (navigator.appVersion.indexOf("X11") != -1) Name =  
           "UNIX"; 
         if (navigator.appVersion.indexOf("Linux") != -1) Name =  
-          "Linux"; 
+          "Linux";
+	if (navigator.appVersion.indexOf("Android") != -1) Name =  
+          "Android"; 
             el_down.innerHTML = Name; 
             </script></h1>
              </div> 
